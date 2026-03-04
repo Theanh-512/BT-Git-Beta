@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.textboxusername = new System.Windows.Forms.MaskedTextBox();
             this.txtPassword = new System.Windows.Forms.Label();
-            this.lblPassword = new System.Windows.Forms.MaskedTextBox();
+            this.textboxmatkhau = new System.Windows.Forms.MaskedTextBox();
             this.btnlogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -45,13 +45,13 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Username";
             // 
-            // maskedTextBox1
+            // textboxusername
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(272, 115);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(290, 22);
-            this.maskedTextBox1.TabIndex = 1;
-            this.maskedTextBox1.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
+            this.textboxusername.Location = new System.Drawing.Point(272, 114);
+            this.textboxusername.Name = "textboxusername";
+            this.textboxusername.Size = new System.Drawing.Size(290, 22);
+            this.textboxusername.TabIndex = 1;
+            this.textboxusername.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
             // 
             // txtPassword
             // 
@@ -64,12 +64,12 @@
             this.txtPassword.Text = "Password";
             this.txtPassword.Click += new System.EventHandler(this.label2_Click);
             // 
-            // lblPassword
+            // textboxmatkhau
             // 
-            this.lblPassword.Location = new System.Drawing.Point(272, 163);
-            this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(290, 22);
-            this.lblPassword.TabIndex = 3;
+            this.textboxmatkhau.Location = new System.Drawing.Point(272, 163);
+            this.textboxmatkhau.Name = "textboxmatkhau";
+            this.textboxmatkhau.Size = new System.Drawing.Size(290, 22);
+            this.textboxmatkhau.TabIndex = 3;
             // 
             // btnlogin
             // 
@@ -86,11 +86,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(686, 407);
             this.Controls.Add(this.btnlogin);
-            this.Controls.Add(this.lblPassword);
+            this.Controls.Add(this.textboxmatkhau);
             this.Controls.Add(this.txtPassword);
-            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.textboxusername);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -101,9 +101,9 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox textboxusername;
         private System.Windows.Forms.Label txtPassword;
-        private System.Windows.Forms.MaskedTextBox lblPassword;
+        private System.Windows.Forms.MaskedTextBox textboxmatkhau;
         private System.Windows.Forms.Button btnlogin;
     }
 }
