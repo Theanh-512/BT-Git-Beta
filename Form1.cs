@@ -31,5 +31,17 @@ namespace BT_Git
         {
 
         }
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+            if(textboxusername.Text == "admin" && textboxmatkhau.Text == "admin")
+            {
+                MessageBox.Show("Đăng nhập thành công!");
+            }
+            else
+            {
+                MessageBox.Show("Đăng nhập thất bại! Vui lòng kiểm tra lại tên đăng nhập và mật khẩu.");
+            }
+        }
     }
 }
