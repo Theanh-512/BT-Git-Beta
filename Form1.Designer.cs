@@ -38,12 +38,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(216, 215);
+            this.label1.Location = new System.Drawing.Point(181, 223);
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(211, 46);
+            this.label1.Size = new System.Drawing.Size(313, 46);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Username";
+            this.label1.Text = "Tên Đăng Nhập";
             // 
             // maskedTextBox1
             // 
@@ -58,16 +58,16 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(216, 315);
+            this.label2.Location = new System.Drawing.Point(181, 330);
             this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(185, 46);
+            this.label2.Size = new System.Drawing.Size(197, 46);
             this.label2.TabIndex = 2;
-            this.label2.Text = "MatKhau";
+            this.label2.Text = "Mật Khẩu";
             // 
             // txtMatKhau
             // 
-            this.txtMatKhau.Location = new System.Drawing.Point(545, 315);
+            this.txtMatKhau.Location = new System.Drawing.Point(545, 330);
             this.txtMatKhau.Margin = new System.Windows.Forms.Padding(6);
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.Size = new System.Drawing.Size(576, 38);
