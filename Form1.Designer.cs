@@ -30,15 +30,15 @@
             this.lblUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.lblUsername.Location = new System.Drawing.Point(118, 216);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(313, 46);
+            this.lblUsername.Size = new System.Drawing.Size(164, 25);
             this.lblUsername.TabIndex = 0;
             this.lblUsername.Text = "Tên Đăng Nhập";
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(501, 224);
+            this.txtUsername.Location = new System.Drawing.Point(326, 220);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(343, 38);
+            this.txtUsername.Size = new System.Drawing.Size(343, 22);
             this.txtUsername.TabIndex = 1;
             // 
             // lblPassword
@@ -47,25 +47,25 @@
             this.lblPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.lblPassword.Location = new System.Drawing.Point(118, 339);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(197, 46);
+            this.lblPassword.Size = new System.Drawing.Size(105, 25);
             this.lblPassword.TabIndex = 2;
             this.lblPassword.Text = "Mật Khẩu";
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(501, 339);
+            this.txtPassword.Location = new System.Drawing.Point(326, 343);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(343, 38);
+            this.txtPassword.Size = new System.Drawing.Size(343, 22);
             this.txtPassword.TabIndex = 3;
             // 
             // btnLogin
             // 
             this.btnLogin.Location = new System.Drawing.Point(354, 452);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(372, 86);
+            this.btnLogin.Size = new System.Drawing.Size(231, 44);
             this.btnLogin.TabIndex = 4;
-            this.btnLogin.Text = "Login";
+            this.btnLogin.Text = "Đăng nhập ";
             this.btnLogin.UseVisualStyleBackColor = true;
             // 
             // Form1
@@ -78,6 +78,7 @@
             this.Controls.Add(this.btnLogin);
             this.Name = "Form1";
             this.Text = "Login Form";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
